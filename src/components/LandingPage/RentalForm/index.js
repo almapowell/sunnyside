@@ -26,6 +26,11 @@ const RentalForm = () => {
         </div>
       </div>
       <button className="next">Next Step</button>
+      <div className="disclaimer">
+        * Any request that is submitted is not automatically claimed. It is a
+        reviewing processess and we will do our best to make sure that your
+        request is taken care of as fast as possible.
+      </div>
     </div>
   );
 };

@@ -1,4 +1,11 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: uppercase;
+  font-family: cursive;
+  font-size: 28px;
 }

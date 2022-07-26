@@ -1,5 +1,17 @@
-.landing-container {
-  padding: 30px;
-  padding-left: 50%;
+.form-container {
   font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section svg {
+  transform: scale(5);
+  color: #852b97;
 }

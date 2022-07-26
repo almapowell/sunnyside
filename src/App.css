@@ -1,4 +1,9 @@
 .App {
   background-color: #faf9fa;
   padding: 20px 20%;
+  height: 100%;
+}
+
+:root {
+  --primary-color: #852b97;
 }

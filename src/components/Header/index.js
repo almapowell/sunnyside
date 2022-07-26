@@ -4,8 +4,8 @@ import "./styles.css";
 const Header = () => {
   return (
     <div className="header-container">
-      <span>Sunnyside Events</span>
-      <span>Free Estimates</span>
+      <span className="logo">Sunnyside Events</span>
+      <span>Contact Us</span>
     </div>
   );
 };
