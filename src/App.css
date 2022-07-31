@@ -7,3 +7,15 @@
 :root {
   --primary-color: #852b97;
 }
+
+@media (max-width: 1200px) {
+  .App {
+    padding: 20px 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App {
+    padding: 20px 5%;
+  }
+}

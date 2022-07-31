@@ -1,7 +1,7 @@
 import React from "react";
-import MoneyOffIcon from "@mui/icons-material/MoneyOff";
-import HistoryIcon from "@mui/icons-material/History";
-import WifiProtectedSetupIcon from "@mui/icons-material/WifiProtectedSetup";
+// import MoneyOffIcon from "@mui/icons-material/MoneyOff";
+// import HistoryIcon from "@mui/icons-material/History";
+// import WifiProtectedSetupIcon from "@mui/icons-material/WifiProtectedSetup";
 import "./styles.css";
 
 const Hook = () => {
@@ -9,7 +9,7 @@ const Hook = () => {
     <div>
       <div className="title">Why Work With Us?</div>
       <div className="sections">
-        <section>
+        {/* <section>
           <HistoryIcon />
           <div className="text">Quick Response</div>
         </section>
@@ -20,7 +20,7 @@ const Hook = () => {
         <section>
           <WifiProtectedSetupIcon />
           <div className="text">Setup & Takedown</div>
-        </section>
+        </section> */}
       </div>
     </div>
   );

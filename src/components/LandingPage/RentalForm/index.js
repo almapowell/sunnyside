@@ -2,28 +2,36 @@ import React from "react";
 import "./styles.css";
 import "antd/dist/antd.min.css";
 import { DatePicker, Space, Checkbox } from "antd";
+import moment from "moment";
 const { RangePicker } = DatePicker;
 
 const RentalForm = () => {
-  const onChange = (e) => {
-    console.log(`checked = ${e.target.checked}`);
+  const onChairsChange = (e) => {
+    console.log(`chairs checked = ${e.target.checked}`);
+  };
+
+  const onTablesChange = (e) => {
+    console.log(`tables checked = ${e.target.checked}`);
+  };
+
+  const onDateChange = (date, dateString) => {
+    // dateString = yyyy/mm/dd
+    console.log(date, dateString);
+  };
+
+  const disabledDate = (current) => {
+    // Can not select days before today and today
+    return current && current < moment().endOf("day");
   };
 
   return (
     <div className="form">
       <span>Book Your Rental</span>
       <div className="date">
-        <text>Select a Date</text>
+        <div className="selector">Select a Date</div>
         <Space direction="veritcal" size={12}>
-          <RangePicker />
+          <RangePicker disabledDate={disabledDate} onChange={onDateChange} />
         </Space>
-      </div>
-      <div className="items">
-        <text>Select Desired Items</text>
-        <div>
-          <Checkbox onChange={onChange}>Chairs</Checkbox>
-          <Checkbox onChange={onChange}>Tables</Checkbox>
-        </div>
       </div>
       <button className="next">Next Step</button>
       <div className="disclaimer">

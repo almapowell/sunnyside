@@ -1,0 +1,10 @@
+.primary-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

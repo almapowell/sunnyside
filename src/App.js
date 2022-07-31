@@ -1,14 +1,12 @@
 import "./App.css";
-import Header from "./components/Header";
-import LandingPage from "./components/LandingPage";
+import Categories from "./components/Categories";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <LandingPage />
+    <div>
+      <Categories />
     </div>
   );
-}
+};
 
 export default App;
