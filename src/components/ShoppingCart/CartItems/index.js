@@ -32,7 +32,6 @@ const CartItems = () => {
           cart.cartItems.map((cartItem) => (
             <div className="cart-item" key={cartItem.productId}>
               <div className="cart-product">
-                {console.log(cartItem)}
                 <img src={cartItem.image} alt={cartItem.title} />
                 <div>
                   <h3>{cartItem.title}</h3>

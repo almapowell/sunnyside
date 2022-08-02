@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import CartItems from "./CartItems";
-import CartSummary from "./CartSummary";
+import CartFooter from "./CartFooter";
 import { useSelector } from "react-redux";
 import { backArrow } from "../../shared/utils";
 
@@ -32,7 +32,7 @@ const ShoppingCart = () => {
           </div>
 
           <CartItems />
-          <CartSummary />
+          <CartFooter />
         </div>
       )}
     </div>

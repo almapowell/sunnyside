@@ -21,6 +21,13 @@
   outline: none;
   cursor: pointer;
 }
+
+.cart-summary .clear-btn:hover {
+  border-color: red;
+  color: red;
+  cursor: pointer;
+}
+
 .cart-checkout {
   width: 270px;
   max-width: 100%;

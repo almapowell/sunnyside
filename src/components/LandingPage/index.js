@@ -5,15 +5,7 @@ import Hook from "./Hook";
 import "./styles.css";
 
 const LandingPage = () => {
-  return (
-    <div className="background-img">
-      <div className="form-container">
-        <ImageCarousel />
-        <RentalForm />
-      </div>
-      <Hook />
-    </div>
-  );
+  return <div>Landing Page</div>;
 };
 
 export default LandingPage;

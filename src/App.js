@@ -1,10 +1,12 @@
 import "./App.css";
 import Categories from "./components/Categories";
+import LandingPage from "./components/LandingPage";
 
 const App = () => {
   return (
     <div>
-      <Categories />
+      <LandingPage />
+      {/* <Categories /> */}
     </div>
   );
 };

@@ -37,7 +37,7 @@
 .shoppingCart {
   font-size: 24px;
   border-radius: 50%;
-  background: grey;
+  background: var(--primary-color);
   transition: all ease-in-out 0.2s;
   padding: 5px;
   margin: 10px;
@@ -48,6 +48,6 @@
 }
 .shoppingCart:hover {
   cursor: pointer;
-  background: darkgrey;
+  background: rgb(104, 104, 104);
   transition: all ease-in-out 0.2s;
 }

@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { categories } from "./shared/utils";
 import ShoppingCart from "./components/ShoppingCart";
 import Admin from "./components/Admin";
-import FinalStep from "./components/ShoppingCart/FinalStep";
+import QuoteSteps from "./components/ShoppingCart/QuoteSteps";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,7 +27,7 @@ root.render(
             <Route path="/categories" element={<Categories />} />
             <Route path="/landing-page" element={<LandingPage />} />
             <Route path="/shopping-cart" element={<ShoppingCart />} />
-            <Route path="/final-step" element={<FinalStep />} />
+            <Route path="/finalize-quote" element={<QuoteSteps />} />
             <Route path="/jordy" element={<Admin />} />
 
             <Route

@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { clearCart } from "../../../redux/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-const CartSummary = () => {
+const CartFooter = () => {
   const cart = useSelector((state) => state.cart);
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const handleClearCart = () => {
     dispatch(clearCart());
@@ -26,11 +26,11 @@ const CartSummary = () => {
               <span className="amount">${cart.cartTotalAmount.toFixed(2)}</span>
             </div>
 
-            <Link to="/final-step">
+            <Link to="/finalize-quote">
               <button className="primary-button">Next Step</button>
             </Link>
             <div className="continue-shopping">
-              <Link to="/">
+              <Link to={"/"}>
                 {backArrow}
                 <span>Continue Shopping</span>
               </Link>
@@ -38,13 +38,8 @@ const CartSummary = () => {
           </div>
         </div>
       </div>
-      <p style={{ marginTop: 50, color: "grey", fontSize: 18 }}>
-        <strong>Note: </strong>This is just a quote request, NOT a reservation.
-        I will be reaching out shortly to confirm your request before before
-        anything is submitted.
-      </p>
     </>
   );
 };
 
-export default CartSummary;
+export default CartFooter;
