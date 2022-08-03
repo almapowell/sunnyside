@@ -30,7 +30,7 @@ const CartFooter = () => {
               <button className="primary-button">Next Step</button>
             </Link>
             <div className="continue-shopping">
-              <Link to={"/"}>
+              <Link to={"/categories"}>
                 {backArrow}
                 <span>Continue Shopping</span>
               </Link>
