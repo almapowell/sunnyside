@@ -28,15 +28,6 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <nav
-        style={{
-          padding: 30,
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/categories">Categories</Link> |
-        <Link to="/landing-page">LandingPage</Link>
-      </nav>
 
       <ContactModal
         setIsModalVisible={setIsModalVisible}

@@ -13,7 +13,6 @@ const Categories = () => {
         {categories.map((category) => (
           <Link key={category.id} to={`/${category.link}`}>
             <Card
-              onClick={() => console.log("clicked the card")}
               title={category.title}
               style={{
                 margin: "30px auto",

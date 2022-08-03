@@ -31,11 +31,15 @@ const SelectedCategory = ({ items }) => {
           >
             <img className="productImage" src={product.image} />
             <div className="priceWrapper">
-              <h2>$ {product.price}</h2>
-              <PlusCircleOutlined
-                onClick={() => handleAddToCart(product)}
-                className="addIcon"
-              />
+              <h2 className="product-price">$ {product.price}</h2>
+              <div className="addToCartBtn">
+                <button
+                  onClick={() => handleAddToCart(product)}
+                  className="secondary-button"
+                >
+                  Add to Cart
+                </button>
+              </div>
             </div>
           </Card>
         ))}
