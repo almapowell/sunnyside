@@ -18,7 +18,7 @@ const Header = () => {
             className="contactBtn"
             onClick={() => setIsModalVisible(true)}
           >
-            CONTACT US
+            Contact Us
           </button>
           <Link
             to="/shopping-cart"
