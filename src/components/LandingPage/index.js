@@ -28,7 +28,7 @@ const LandingPage = () => {
         />
         <div class="overlay">
           <span className="welcome">Welcome to</span>
-          <span className="company-name">Sunnyside Event Rentals</span>
+          <span className="company-name">Bitterroot Party Rentals</span>
           <div class="shop-btn-wrapper">
             <button
               onClick={() => navigate("/categories")}

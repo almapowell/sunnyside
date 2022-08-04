@@ -21,9 +21,10 @@ export default function Footer() {
           width: "100%",
           marginTop: 30,
           color: "#faf9fa",
+          fontSize: 12,
         }}
       >
-        Copyright &#169; Sunnyside Events
+        Copyright &#169; 2022 Bitterroot Party Rentals
       </div>
     </div>
   );
