@@ -1,7 +1,11 @@
 .App {
+  background-color: #f5f5f5;
   background-color: #faf9fa;
   padding: 0 15%;
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
 }
 
 :root {

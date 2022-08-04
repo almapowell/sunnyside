@@ -13,6 +13,7 @@ import { categories } from "./shared/utils";
 import ShoppingCart from "./components/ShoppingCart";
 import Admin from "./components/Admin";
 import QuoteSteps from "./components/ShoppingCart/QuoteSteps";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -47,6 +48,7 @@ root.render(
               element={<SelectedCategory items={categories[3]} />}
             />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     </Provider>
