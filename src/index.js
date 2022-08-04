@@ -22,7 +22,7 @@ root.render(
       <BrowserRouter>
         <div className="App">
           <Header />
-
+          header
           <Routes>
             <Route path="/" element={<App />} />
             <Route path="/categories" element={<Categories />} />
